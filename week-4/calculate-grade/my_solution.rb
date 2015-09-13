@@ -1,11 +1,11 @@
-def get_grade(average)
-	if average >= 90
+def get_grade(grade)
+	if grade >= 90
 		return "A"
-	elsif average >= 80
+	elsif grade >= 80
 		return "B"
-	elsif average >= 70
+	elsif grade >= 70
 		return "C"
-	elsif average >= 60
+	elsif grade >= 60
 		return "D"
 	else
 		return "F"
