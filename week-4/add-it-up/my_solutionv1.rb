@@ -7,9 +7,9 @@
 
 def total(numbers)
  total = 0
-	numbers.each do |num|
-	 total += num
-	end
+ numbers.each do |num|
+ total += num
+ end
 return total
 end
  
@@ -25,9 +25,9 @@ end
 
 def sentence_maker(word_list)
  sentence = ""
-	word_list.each do |word|
-	 sentence = sentence + word.to_s + " " 
-	end
- 	sentence.capitalize!
+ word_list.each do |word|
+  sentence = sentence + word.to_s + " " 
+ end
+ sentence.capitalize!
  return sentence[0 ..-2] + "."
 end 
