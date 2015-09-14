@@ -16,6 +16,8 @@ def leap_year?(year)
   end
  end
  
+ #refactored solution
+ 
 def leap_year (date)
  if (date % 4) == 0
  return true
