@@ -18,15 +18,15 @@
 
 # 1. Initial Solution
 def separate_comma(number) 
-	array = number.to_s.reverse.split("")
-	 array.each_with_index do |num,index|
-	  if index % 3 == 0
-	  	array[index] = "," + num
-	  end
-	 end
-	array = array.join("").reverse
-	array.chomp(",")
- end
+ array = number.to_s.reverse.split("")
+  array.each_with_index do |num,index|
+   if index % 3 == 0
+    array[index] = "," + num
+   end
+end
+array = array.join("").reverse
+array.chomp(",")
+end
 
 
 # 2. Refactored Solution
