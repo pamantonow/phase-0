@@ -18,12 +18,12 @@ class Die
   def initialize(sides)
   	@sides = sides
    if sides < 1
-   	raise ArgumentError.new("must be more than one side")
+  raise ArgumentError.new("must be more than one side")
    end
   end
 
   def sides
-    return @sides
+   return @sides
   end
 
   def roll
