@@ -24,4 +24,18 @@ def cohort(names)
  cohort(names)
 
  #refactored solution 
- 
+ names = [["Aji Slater","Farman Pirzada","Jamie Runyan","Lauren Jin"],["Pamela Antonow", "Celeste Carter","George Warnbold","Joshua Monzon"],["Lauren Markzon","Regina Compton",
+"Colin Razevich","Hana Worku"],["Julian Leese", "Marcus Davis","Richar Leo","David O'Keefe"],"Irina Renteria", "Kries Bies","Marvy Tagala"]]
+def cohort(names)
+p names
+end
+cohort(names)
+# What was the most interesting and most difficult part of this challenge?
+#I had read before about slice and I used to be able to get the groups and it was fairly easy.
+# Do you feel you are improving in your ability to write pseudocode and break the problem down?
+#a little bit but like always while you are already writting the code you ended up doing something else
+# Was your approach for automating this task a good solution? What could have made it even better?
+#I think the way I did it worked pretty good
+# What data structure did you decide to store the accountability groups in and why?
+#I used .slice becuase this lets you get a part of the array and create new groups for it.
+# What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods
