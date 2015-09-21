@@ -26,20 +26,20 @@
 # 1. Initial Solution
 def pad!(array, min_size, value = nil) #destructive
  if array.length >= min_size && array.length >= 0 
- 	 return array
- 	 else  array << value 
+  return array
+  else  array << value 
   end
 end
 
 def pad(array, min_size, value = nil) #non-destructive
   new_array = Array.new(array)
   if new_array.length >= min_size && new_array.length >= 0
-  	return new_array
-		else 
-		until new_array.length >= min_size
-			new_array << value
-		end
-		return new_array
+   return new_array
+  else 
+  until new_array.length >= min_size
+   new_array << value
+  end
+ return new_array
   end
 end
      
