@@ -26,7 +26,7 @@ class GuessingGame
   	@guess = guess
   	if guess > @answer
   		return :high
-  	elsif guess == @answer
+  	 elsif guess == @answer
   		return :correct
   	else
   		return :low
