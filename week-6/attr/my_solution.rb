@@ -9,18 +9,18 @@
 #both lines you will just use accessor.
 
 class NameData
-	attr_reader :name
-	def initialize
-		@name = "Lucia"
-	end
-
+attr_reader :name
+ 
+ def initialize
+  @name = "Lucia"
+ end
 end
 
 
 class Greetings
-	def initialize
-		@namedata = NameData.new
-	end
+ def initialize
+   @namedata = NameData.new
+ end
 
  def greet
   puts "hello dear #{@namedata.name}!!"
