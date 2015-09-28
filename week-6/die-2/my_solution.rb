@@ -45,18 +45,18 @@ p die.roll.kind_of?(String)
 
 class Die
   def initialize(labels)
-  	@labels= labels
-  	 if labels == []
-  	 	raise ArgumentError.new("should not be empty")
+   @labels= labels
+  	if labels == []
+  	raise ArgumentError.new("should not be empty")
   	end
   end
 
   def sides
-  	return @labels.length
+   return @labels.length
   end
 
   def roll
-  	return @labels[rand(sides)]
+   return @labels[rand(sides)]
   end
 end
 
