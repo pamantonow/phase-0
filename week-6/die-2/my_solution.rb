@@ -20,7 +20,7 @@ class Die
   def initialize(labels)
   	@labels= labels
   	 if labels == []
-  	 	raise ArgumentError.new("should not be empty")
+     raise ArgumentError.new("should not be empty")
   	end
   end
 
@@ -47,7 +47,7 @@ class Die
   def initialize(labels)
    @labels= labels
   	if labels == []
-  	raise ArgumentError.new("should not be empty")
+  	 raise ArgumentError.new("should not be empty")
   	end
   end
 
