@@ -138,9 +138,6 @@ left_to_right = BingoScorer.new(left_to_right)
 left_to_right.check_board
 right_to_left = BingoScorer.new(right_to_left)
 right_to_left.check_board
-# none = BingoScorer.new(none)
-# none.check_board
-# implement tests for each of the methods here:
 
 
 # Reflection
